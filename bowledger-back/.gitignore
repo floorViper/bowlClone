@@ -1,0 +1,24 @@
+#
+#    SPDX-License-Identifier: Apache-2.0
+#
+**/node_modules/
+explorer_1/scripts/bower_components/
+explorer_1/webcontent
+node_modules/*
+.idea/*
+test/*
+app/platform/fabric/config.json
+app/persistence/postgreSQL/db/pgconfig.json
+.log
+fabric-docker-compose-svt/channel-artifacts
+fabric-docker-compose-svt/crypto-config
+first-network/channel-artifacts/*
+.vscode
+log.log
+logs/*
+logs/app/*
+logs/console/*
+logs/db/*
+
+examples/*
+public/*

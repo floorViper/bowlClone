@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = 'UTF-8'>
+        <title>addUser page</title>
+    </head>
+    <body>
+        <h1>addUser page</h1>
+        <br>
+        <form method = "post" action = "/process/addUser">
+            <table>
+                <tr>
+                    <td><label>id</label></td>
+                    <td><input type="text" name="id"></td>
+                </tr>
+                <tr>
+                    <td><label>password</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label>name</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label>dept</label></td>
+                    <td><input type="text" name="dept"></td>
+                </tr>
+                <tr>
+                    <td><label>duty</label></td>
+                    <td><input type="text" name="duty"></td>
+                </tr>
+                <tr>
+                    <td><label>tel</label></td>
+                    <td><input type="text" name="tel"></td>
+                </tr>
+                <tr>
+                    <td><label>hp</label></td>
+                    <td><input type="text" name="hp"></td>
+                </tr>
+                <tr>
+                    <td><label>fax</label></td>
+                    <td><input type="text" name="fax"></td>
+                </tr>
+                <tr>
+                    <td><label>req_ymd</label></td>
+                    <td><input type="text" name="req_ymd"></td>
+                </tr>
+                <tr>
+                    <td><label>reg_ymd</label></td>
+                    <td><input type="text" name="reg_ymd"></td>
+                </tr>
+                <tr>
+                    <td><label>del_yn</label></td>
+                    <td><input type="text" name="del_yn"></td>
+                </tr>
+                <tr>
+                    <td><label>orgcd</label></td>
+                    <td><input type="text" name="orgcd"></td>
+                </tr>
+            </table>
+            <input type="submit" value="전송" name="">
+        </form>
+        <a href='/process/loginCheck'>돌아가기</a>
+    </body>
+</html>
